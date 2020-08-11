@@ -1,0 +1,22 @@
+How it works.
+
+With each new infection, we add a record to a file. Each record contains:
+
+0 - the ID of the agent transmitting the contagion (for the initial cases, externally generated, the ID has value -1);
+1 - its contagion progressive number, starting from 1 (for the initial cases, externally generated, this value is 0);
+2 - the conventional color of the place where it turned infected, following the NetLogo color swatches (for the externally generated initial cases, this value is 0);
+3 - the ID of the agent receiving the contagion;
+4 - its fragility rate (1 - robust; 2 - regular; 3 - fragile; 4 - extra fragile;
+5 - its progressive contagion number;
+6 - the conventional color of the place where it is turning infected, following the NetLogo color swatches;
+7 - the day (tick) of the contagion (for the initial cases, externally generated, this value is 0);
+8 - the starting infection day, i.e., the previous value plus the incubationPeriod (for the externally generated initial cases, the starting infection value is 0);
+9 - the day of the conclusion of the infection, i.e., the previous value plus a value between the minInfectionDuration and the maxInfectionDuration settings; this period stops if the agent deceases, but we do not consider that possibility here;
+10 - the symptomatic (1) or asymptomatic (2) status.
+
+Into the plots, each agent is represented by a horizontal line, starting at x1 (date of the contagion, value 7 above) and finishing at x2 (time of recover, value 9 above). 
+The line is dotted in the incubation phase (until value 8 above), then solid for symptomatic cases or dashed for asymptomatic ones. 
+The line color is set by value 6 above. The line thickness is set by the value 4 above.
+The position on y-axes is that of value 5 above. 
+
+Using data 1, 2, 5 and 7, we plot a vertical line with: the contagion date as x position (value 7 above); the y1 position identifying the agent transmitting the contagion (value 1 above) and the y2 position identifying the agent receiving the contagion (value 5 above). The color is that of the transmitting agent.
