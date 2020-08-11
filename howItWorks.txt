@@ -16,7 +16,16 @@ With each new infection, we add a record to a file. Each record contains:
 
 Into the plots, each agent is represented by a horizontal line, starting at x1 (date of the contagion, value 7 above) and finishing at x2 (time of recover, value 9 above). 
 The line is dotted in the incubation phase (until value 8 above), then solid for symptomatic cases or dashed for asymptomatic ones. 
-The line color is set by value 6 above. The line thickness is set by the value 4 above.
+The line color is set by value 6 above. The line thickness is set by the value 4 above, with the scale: 1 robust, 2 regular, 3 fragile, 4 extra-fragile.
 The position on y-axes is that of value 5 above. 
 
 Using data 1, 2, 5 and 7, we plot a vertical line with: the contagion date as x position (value 7 above); the y1 position identifying the agent transmitting the contagion (value 1 above) and the y2 position identifying the agent receiving the contagion (value 5 above). The color is that of the transmitting agent.
+
+Colors:
+    black = contagion by an external unidentified agent;
+    gray =  contagion in an empty space;
+    orange = contagion in a nursing home;
+    brown = contagion in a factory/office/shop;
+    yellow = contagion in a school;
+    cyan = contagion at home;
+    pink = contagion in a hospital.
