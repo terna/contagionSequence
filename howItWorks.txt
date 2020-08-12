@@ -6,8 +6,8 @@ With each new infection, we add a record to a file. Each record contains:
 1 - its contagion progressive number, starting from 1 (for the initial cases, externally generated, this value is 0);
 2 - the conventional color of the place where it turned infected, following the NetLogo color swatches (for the externally generated initial cases, this value is 0);
 3 - the ID of the agent receiving the contagion;
-4 - its fragility rate (1 - robust; 2 - regular; 3 - fragile; 4 - extra fragile;
-5 - its progressive contagion number;
+4 - its fragility rate (1 - robust; 2 - regular; 3 - fragile; 4 - extra fragile);
+5 - its contagion progressive number;
 6 - the conventional color of the place where it is turning infected, following the NetLogo color swatches;
 7 - the day (tick) of the contagion (for the initial cases, externally generated, this value is 0);
 8 - the starting infection day, i.e., the previous value plus the incubationPeriod (for the externally generated initial cases, the starting infection value is 0);
@@ -23,7 +23,7 @@ Using data 1, 2, 5 and 7, we plot a vertical line with: the contagion date as x 
 
 Colors:
     black = contagion by an external unidentified agent;
-    gray =  contagion in an empty space;
+    gray =  contagion in an empty or open space;
     orange = contagion in a nursing home;
     brown = contagion in a factory/office/shop;
     yellow = contagion in a school;
