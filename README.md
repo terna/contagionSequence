@@ -3,7 +3,7 @@
 
  About SIsaR, An Agent-Based Model of the Diffusion of Covid-19 Using NetLogo, with Susceptible, Infected, symptomatic, asymptomatic, and Recovered people (+), look at [https://terna.to.it/simul/SIsaR.html](https://terna.to.it/simul/SIsaR.html)
 
- Read about the visualization technique in [howItWorks.txt](hoeItWrks.txt).
+ Read about the visualization technique in [howItWorks.txt](howItWrks.txt).
 
  You can run this sequence analyzer via [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/terna/contagionSequence/master?filepath=sequentialRecords.ipynb)
 
