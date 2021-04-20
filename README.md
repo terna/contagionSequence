@@ -28,9 +28,9 @@ A related note is at [https://terna.to.it/simul/GAresultPresentation.pdf](https:
 
 You can run this series generator via [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/terna/contagionSequence/master?filepath=contagionSeriesByGroups.ipynb)
 
- ### How to cite:
- Terna P., Pescarmona G., Acquadro A., Pescarmona P., Russo G., Terna S. (2020), An Agent-Based Model of the Diffusion of Covid-19 Using NetLogo, URL https://terna.to.it/simul/SIsaR.html
+### How to cite:
+Terna P., Pescarmona G., Acquadro A., Pescarmona P., Russo G., Terna S. (2020), An Agent-Based Model of the Diffusion of Covid-19 Using NetLogo, URL https://terna.to.it/simul/SIsaR.html
 
- Corresponding author: [Pietro Terna](mailto:pietro.terna@unito.it).
+Corresponding author: [Pietro Terna](mailto:pietro.terna@unito.it).
 
- (+) The model uses structural data of Piedmont, an Italian region, but you can calibrate it for other areas following the Info sheet. It follows a calendar of events (comments in Italian there).
+(+) The model uses structural data of Piedmont, an Italian region, but you can calibrate it for other areas following the Info sheet. It follows a calendar of events (comments in Italian there).
